@@ -1,0 +1,30 @@
+
+.container{
+    width: 30vw;
+    height: 65vh;
+    background-color: hsl(234, 85%, 45%);
+    border-radius: 7px;
+}
+
+p{
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.circulo{
+background:hsla(241, 81%, 54%);
+border-radius: 50px;
+shape-outside: circle();
+clip-path: circle();
+width: 25vw;
+height: 15vh;
+float: left;
+display: flex;
+flex-direction: column;
+justify-content: center;
+line-height: 15vh;
+}
+
+
