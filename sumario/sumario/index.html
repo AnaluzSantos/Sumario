@@ -6,14 +6,21 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./design/style.css">
-  
-  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500&display=swap" rel="stylesheet">
+
+<link
+rel="icon"
+type="image/png"
+sizes="32x32" 
+href="./assets/images/favicon-32x32.png"
+/>
+  <title>Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
 
@@ -42,12 +49,27 @@
   
   
  <div class="container">
-  <p>Your Result</p>
-  <h1></h1>
-  <div class="circulo">
-   <p>76</p>
-  </div>
+  <main>
+    <article class="Result">
+      <h3>Your Result</h3>
+    <section>Summary</section>
+    <p class="result-points"><span>76</span> of 100</p>
+    <p class="result-feedback">Great</p>
+    <p class="result-description">You scored higher than 65% of the people have taken these tests</p>
+  </article>
+  <section class="summary">
+    <h3>Summary</h3>
+    <div class="summary-box">
+      <article class="summary-info">
+        <img src="./assets/images/icon-reaction.svg" alt="">
+        <p>Reaction</p>
+      </article>
+      <h5 class="summary-calc"><span>80</span></h5>
+    </div>
+    <button>Continue</button>
+  </main>
  </div>
- 
+
+<script src="./index.html"></script>
 </body>
 </html>
